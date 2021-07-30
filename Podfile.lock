@@ -1,0 +1,98 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Messaging (4.0.4):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (4.0.4):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FlagPhoneNumber (0.7.6):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.7.6)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.7.6)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - GoogleToolboxForMac/Logger (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.1)":
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - Koloda (5.0):
+    - pop (~> 1.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - pop (1.0.12)
+  - Protobuf (3.9.0)
+  - ReachabilitySwift (4.3.1)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - SVProgressHUD (2.2.5)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Firebase/Core (~> 4.0.0)
+  - Firebase/Messaging (~> 4.0.0)
+  - FlagPhoneNumber
+  - Koloda
+  - ReachabilitySwift
+  - SDWebImage
+  - SVProgressHUD
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FlagPhoneNumber
+    - GoogleToolboxForMac
+    - Koloda
+    - nanopb
+    - pop
+    - Protobuf
+    - ReachabilitySwift
+    - SDWebImage
+    - SVProgressHUD
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FirebaseMessaging: 227406c05b0dc9290702d2e9f18ab5528f0c2cf2
+  FlagPhoneNumber: ee8d015e7e92b776a3598e6a36718196e0d0dcf5
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  Koloda: 75302d21882cc3e274c1561b1155805ea5919dab
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: 8c147c0590c3cfc79070e1c1e66b7f3af739e099
+
+COCOAPODS: 1.8.4
